@@ -6,87 +6,15 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 </head>
+<body>
 
-
-<!-- The video -->
-<video autoplay loop id="myVideo">
-  <source src="content\celery.webm" type="video/mp4">
-</video>
-<script>
-    document.getElementById('vid').play();
-</script>
-<!-- Optional: some overlay text to describe the video -->
-<div class="content">
-  <h1>roman bird dot com</h1>
-</div>
-<style>
-h1 {
-  font-family: "Comic Sans MS"
-}
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-/* Add some content at the bottom of the video/page */
-.content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-}
-h1 {
-   /* Chrome, Safari, Opera */
-  -webkit-animation: rainbow 3s infinite;
-
-  /* Internet Explorer */
-  -ms-animation: rainbow 3s infinite;
-
-  /* Standar Syntax */
-  animation: rainbow 3s infinite;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes rainbow{
-  0%{color: orange;}
-  10%{color: purple;}
-	20%{color: red;}
-	40%{color: yellow;}
-	60%{color: green;}
-	100%{color: blue;}
-	100%{color: orange;}
-}
-/* Internet Explorer */
-@-ms-keyframes rainbow{
-  0%{color: orange;}
-  10%{color: purple;}
-	20%{color: red;}
-	40%{color: yellow;}
-	60%{color: green;}
-	100%{color: blue;}
-	100%{color: orange;}
-}
-
-/* Standar Syntax */
-@keyframes rainbow{
-  0%{color: orange;}
-  10%{color: purple;}
-	20%{color: red;}
-	40%{color: yellow;}
-	60%{color: green;}
-	100%{color: blue;}
-	100%{color: orange;}
-}
-
-</style>
-
-
+  <audio controls autoplay loop>
+    <source src="content\suite.mp3" type="audio/mpeg">
+    
+    </audio>
+  <h1>
+    <i>roman bird dot com</i>
+  </h1>
 
 <script src="js/scripts.js"></script>
 </body>

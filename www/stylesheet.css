@@ -1,0 +1,15 @@
+audio {
+    display:none;
+}
+
+body {
+    background-image: url("content/code.gif");
+    background-repeat: repeat;
+  }
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: Helvetica;
+    color: white;
+    line-height: 400px;
+}
